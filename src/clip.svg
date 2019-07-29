@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="322px" height="365px" viewBox="0 0 322 365" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56 (81588) - https://sketch.com -->
+    <title>clip</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="clip" transform="translate(27.000000, 27.000000)" stroke="#7C734F" stroke-width="54">
+            <path d="M268,2 L268,244 C268,281.003078 252.155929,311 232.611276,311 L125.388724,311 C105.844071,311 90,281.003078 90,244 C90,162.414826 90,101.225946 90,60.4333586" id="Rectangle"></path>
+            <path d="M178,0 L178,242 C178,279.003078 162.155929,309 142.611276,309 L35.388724,309 C15.8440714,309 0,279.003078 0,242 C0,160.414826 0,99.2259456 0,58.4333586" id="Rectangle-Copy-2" transform="translate(89.000000, 154.500000) scale(-1, -1) translate(-89.000000, -154.500000) "></path>
+        </g>
+    </g>
+</svg>

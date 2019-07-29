@@ -75,8 +75,8 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 100px;
   background-color: #acacac;
-  background-image: linear-gradient(96deg, transparent 50%, #3a3a3a), url('../images/slider-1.jpg');
-  background-position: 0px 0px, 0% 50%;
+  background-image: linear-gradient(96deg, transparent 50%, #000), url('../images/slider-2.jpg');
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, scroll;
@@ -150,6 +150,10 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+}
+
+.brand-img {
+  padding-right: 9px;
 }
 
 .about-text {
@@ -234,6 +238,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 410px;
+  margin-top: 64px;
   margin-right: 10%;
   margin-left: 0px;
   -webkit-box-orient: vertical;
@@ -299,13 +304,47 @@
 .hero-holder {
   display: -ms-grid;
   display: grid;
+  height: 100vh;
   grid-auto-columns: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   -ms-grid-columns: 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: auto auto auto;
-  grid-template-rows: auto auto auto;
+  -ms-grid-rows: 100px 216px 370px;
+  grid-template-rows: 100px 216px 370px;
+}
+
+.img3 {
+  background-image: url('../images/img3.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.info {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(red), to(#7c0000));
+  background-image: linear-gradient(180deg, red, #7c0000);
+}
+
+.div-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 130px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-right: 2px solid #bbb;
 }
 
 @media (max-width: 991px) {
@@ -336,6 +375,8 @@
   }
   .slide-1 {
     padding-top: 190px;
+    background-position: 0px 0px, 38% 50%;
+    background-size: auto, auto;
   }
   .silder-overlap {
     margin-left: 5%;
@@ -376,6 +417,7 @@
     font-size: 34px;
   }
   .text-holder {
+    margin-top: 0px;
     margin-right: 0%;
   }
   .choose {
@@ -394,6 +436,7 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    background-position: 0px 0px, 30% 50%;
   }
   .contents {
     margin-bottom: 40px;
@@ -443,6 +486,83 @@
     margin-left: 0%;
     text-align: left;
   }
+}
+
+#w-node-eb2ccc96c452-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-fa8786c77502-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-3fc335db1c13-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 4;
+  -ms-grid-row: 3;
+  grid-row-start: 3;
+}
+
+#w-node-82af431e7860-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 4;
+  -ms-grid-row: 3;
+  grid-row-start: 3;
+}
+
+#w-node-8efced083f03-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 4;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-b6b85126be7f-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 4;
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-7e2357aefdce-4328e08f {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
 }
 
 @font-face {

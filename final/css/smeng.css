@@ -633,6 +633,8 @@
 }
 
 .funding-text {
+  margin-bottom: 10px;
+  padding-bottom: 0px;
   color: #696969;
 }
 
@@ -776,6 +778,15 @@
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.7));
 }
 
+.link-2 {
+  font-family: 'London Between', sans-serif;
+  color: #ff270a;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 @media (max-width: 991px) {
   .contents {
     padding-left: 40px;
@@ -811,13 +822,13 @@
     grid-template-rows: 100px 250px 310px;
   }
   .img1.imgs {
-    padding: 20px;
+    padding: 0px;
   }
   .img2.imgs {
-    padding: 20px;
+    padding: 0px;
   }
   .img3.imgs {
-    padding: 20px;
+    padding: 0px;
   }
   .img5 {
     padding: 20px;
@@ -848,6 +859,12 @@
   .about-v1s {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .info-container {
+    padding: 20px;
+  }
+  .info-container-2 {
+    padding: 20px;
   }
 }
 
@@ -1018,6 +1035,14 @@
     padding-right: 0px;
     padding-bottom: 30px;
     padding-left: 0px;
+  }
+  .info-container {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.7)));
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 50%, rgba(0, 0, 0, 0.7));
+  }
+  .info-container-2 {
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(rgba(0, 0, 0, 0.7)));
+    background-image: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.7));
   }
 }
 

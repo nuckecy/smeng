@@ -1136,7 +1136,8 @@
   .container-holder {
     padding: 30px;
   }
-  .tfs-title {
+  .tfs-title 
+  {
     font-size: 18px;
     line-height: 20px;
   }

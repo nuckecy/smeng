@@ -35,12 +35,14 @@
 
 .about-text {
   color: #696969;
+  font-size: 16px;
 }
 
 .heading {
   margin-top: 0px;
   font-family: 'London Between', sans-serif;
   color: #727272;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -103,6 +105,7 @@
 }
 
 .full-section {
+  overflow: hidden;
   height: auto;
 }
 
@@ -163,12 +166,14 @@
   margin-bottom: 10px;
   padding-bottom: 0px;
   color: #696969;
+  font-size: 16px;
 }
 
 .tfs-title {
   margin-top: 0px;
   font-family: 'London Between', sans-serif;
   color: #727272;
+  font-size: 26px;
   font-weight: 400;
 }
 
@@ -229,8 +234,8 @@
 
 .link-2 {
   font-family: 'London Between', sans-serif;
-  color: #ff270a;
-  font-size: 15px;
+  color: #c70006;
+  font-size: 16px;
   font-weight: 400;
   text-decoration: none;
   text-transform: uppercase;
@@ -402,16 +407,46 @@
   background-color: #fff;
 }
 
+.swh-img {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.swh-img.yif-img {
+  margin-top: 5px;
+  padding-top: 8px;
+}
+
+.swh-img.wif-img {
+  margin-top: 10px;
+}
+
 @media (max-width: 991px) {
   .about {
     padding-right: 20px;
     padding-left: 20px;
+  }
+  .about-text {
+    font-size: 15px;
+  }
+  .left {
+    width: 40%;
+  }
+  .funding-text {
+    font-size: 15px;
+  }
+  .tfs-title {
+    font-size: 24px;
   }
   .info-container {
     padding: 20px;
   }
   .info-container-2 {
     padding: 20px;
+  }
+  .link-2 {
+    font-size: 15px;
   }
   .section-titles.wif-title {
     font-size: 30px;
@@ -442,6 +477,15 @@
     padding-right: 0px;
     padding-bottom: 20px;
     padding-left: 0px;
+  }
+  .brand-img {
+    margin-right: 20px;
+  }
+  .about-text {
+    font-size: 17px;
+  }
+  .heading {
+    font-size: 25px;
   }
   .footer {
     margin-bottom: 0px;
@@ -494,6 +538,12 @@
   .left {
     width: auto;
   }
+  .funding-text {
+    font-size: 17px;
+  }
+  .tfs-title {
+    font-size: 24px;
+  }
   .info-container {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), to(rgba(0, 0, 0, 0.7)));
     background-image: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.7));
@@ -503,7 +553,7 @@
     background-image: linear-gradient(180deg, transparent 50%, rgba(0, 0, 0, 0.7));
   }
   .logo-section {
-    padding: 30px;
+    padding: 20px 30px;
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
     -ms-flex-order: -1;
@@ -553,14 +603,33 @@
   }
   .content-holder {
     position: static;
-    padding-bottom: 40px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: -100px;
+    padding-top: 100px;
+    padding-bottom: 44px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
   .section-titles {
     font-size: 30px;
     line-height: 30px;
   }
+  .section-titles.wif-title {
+    margin-bottom: 0px;
+  }
   .section-titles.yif-title {
-    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   .section-titles.ebi-title {
     margin-bottom: 20px;
@@ -572,6 +641,13 @@
     margin-top: -80px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 42%, 0)), to(#000));
     background-image: linear-gradient(180deg, hsla(0, 0%, 42%, 0), #000);
+  }
+  .swh-img {
+    width: 54px;
+    padding: 0px;
+  }
+  .image-2 {
+    padding: 4px;
   }
 }
 
@@ -616,6 +692,16 @@
   }
   .copy {
     font-size: 13px;
+  }
+  .brand-caption {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .brand-caption-text {
+    font-size: 26px;
+  }
+  .div-block {
+    height: 50px;
   }
 }
 
